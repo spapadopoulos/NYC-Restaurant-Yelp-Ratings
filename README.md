@@ -7,5 +7,5 @@ Work in progress
 </iframe>
 </figure>
 
-{"flowers.html"}
+{ % "flowers.html" % }
 
