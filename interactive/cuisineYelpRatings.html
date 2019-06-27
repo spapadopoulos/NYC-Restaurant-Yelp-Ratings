@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="87f78a13-b760-4ec6-b0c5-2276ceca2d70" data-root-id="1588"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1721">
+          {"5904e366-c181-421f-8d30-ad10f85812f4":{"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.5},"left":{"value":3.5},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"x"},"y":{"field":"y"}},"id":"1613","type":"HBar"},{"attributes":{"ticker":{"id":"1600","type":"BasicTicker"}},"id":"1603","type":"Grid"},{"attributes":{"dimension":1,"grid_line_color":null,"ticker":{"id":"1605","type":"CategoricalTicker"}},"id":"1607","type":"Grid"},{"attributes":{},"id":"1605","type":"CategoricalTicker"},{"attributes":{"text":"Yelp ratings for the most popular NYC food categories"},"id":"1589","type":"Title"},{"attributes":{"callback":null,"data":{"colorMap":["#00204C","#00265A","#002B68","#00306F","#06366E","#1E3C6C","#2C416B","#37476B","#414D6B","#49536B","#51586C","#595E6D","#60646E","#686A70","#6F6F72","#757575","#7C7B78","#848178","#8C8878","#948E78","#9C9477","#A49B75","#ACA173","#B5A871","#BDAF6E","#C6B66B","#CEBD67","#D7C462","#E0CB5D","#E9D356"],"x":[4.321428571428571,4.25,4.229508196721311,4.158163265306122,4.151315789473684,4.145631067961165,4.142857142857143,4.127450980392157,4.1,4.0636363636363635,4.059701492537314,4.038793103448276,4.029411764705882,4.0209677419354835,4.017241379310345,3.9549180327868854,3.946969696969697,3.933628318584071,3.9285714285714284,3.913793103448276,3.86,3.8527397260273974,3.7962962962962963,3.7908496732026142,3.7782608695652176,3.7620967741935485,3.677165354330709,3.6614583333333335,3.6319444444444446,3.6015625],"y":["foodtrucks","juicebars","korean","cafes","french","coffee","mediterranean","bakeries","greek","japanese","thai","newamerican","indpak","italian","mexican","bars","sushi","delis","breakfast_brunch","sandwiches","bbq","pizza","latin","caribbean","chinese","seafood","tradamerican","diners","spanish","burgers"]},"selected":{"id":"1621","type":"Selection"},"selection_policy":{"id":"1622","type":"UnionRenderers"}},"id":"1587","type":"ColumnDataSource"},{"attributes":{},"id":"1595","type":"LinearScale"},{"attributes":{"callback":null,"factors":["burgers","spanish","diners","tradamerican","seafood","chinese","caribbean","latin","pizza","bbq","sandwiches","breakfast_brunch","delis","sushi","bars","mexican","italian","indpak","newamerican","thai","japanese","greek","bakeries","mediterranean","coffee","french","cafes","korean","juicebars","foodtrucks"]},"id":"1593","type":"FactorRange"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1608","type":"HoverTool"}]},"id":"1609","type":"Toolbar"},{"attributes":{"callback":null,"tooltips":"@x{1.11}"},"id":"1608","type":"HoverTool"},{"attributes":{},"id":"1619","type":"BasicTickFormatter"},{"attributes":{},"id":"1597","type":"CategoricalScale"},{"attributes":{"below":[{"id":"1599","type":"LinearAxis"}],"center":[{"id":"1603","type":"Grid"},{"id":"1607","type":"Grid"}],"left":[{"id":"1604","type":"CategoricalAxis"}],"outline_line_color":{"value":null},"plot_width":450,"renderers":[{"id":"1614","type":"GlyphRenderer"}],"title":{"id":"1589","type":"Title"},"toolbar":{"id":"1609","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1591","type":"Range1d"},"x_scale":{"id":"1595","type":"LinearScale"},"y_range":{"id":"1593","type":"FactorRange"},"y_scale":{"id":"1597","type":"CategoricalScale"}},"id":"1588","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1617","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1600","type":"BasicTicker"},{"attributes":{"callback":null,"end":4.321428571428571,"start":3.5},"id":"1591","type":"Range1d"},{"attributes":{"fill_color":{"field":"colorMap"},"height":{"value":0.5},"left":{"value":3.5},"line_color":{"field":"colorMap"},"right":{"field":"x"},"y":{"field":"y"}},"id":"1612","type":"HBar"},{"attributes":{},"id":"1621","type":"Selection"},{"attributes":{"data_source":{"id":"1587","type":"ColumnDataSource"},"glyph":{"id":"1612","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1613","type":"HBar"},"selection_glyph":null,"view":{"id":"1615","type":"CDSView"}},"id":"1614","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1587","type":"ColumnDataSource"}},"id":"1615","type":"CDSView"},{"attributes":{"axis_label":"Avearage Yelp rating","formatter":{"id":"1619","type":"BasicTickFormatter"},"ticker":{"id":"1600","type":"BasicTicker"}},"id":"1599","type":"LinearAxis"},{"attributes":{"formatter":{"id":"1617","type":"CategoricalTickFormatter"},"ticker":{"id":"1605","type":"CategoricalTicker"}},"id":"1604","type":"CategoricalAxis"},{"attributes":{},"id":"1622","type":"UnionRenderers"}],"root_ids":["1588"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1721').textContent;
+                  var render_items = [{"docid":"5904e366-c181-421f-8d30-ad10f85812f4","roots":{"1588":"87f78a13-b760-4ec6-b0c5-2276ceca2d70"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
