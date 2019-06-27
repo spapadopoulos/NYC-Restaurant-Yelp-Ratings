@@ -1,7 +1,8 @@
 # NYC-Restaurant-Yelp-Ratings
 
-Work in progress
+Supporting code for my blog post on API requests for urban data
 
+http://sokratispapadopoulos.com/journal/APIs-for-urban-data.html
 
 
 
