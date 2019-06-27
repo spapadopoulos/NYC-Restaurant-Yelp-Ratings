@@ -3,7 +3,7 @@
 Work in progress
 
 
-![](output/choropleth.png "foo")
+![](output/choropleth.png "Yelp rating choropleth")
 
 
 
