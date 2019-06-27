@@ -3,7 +3,6 @@
 Work in progress
 
 
-![](output/choropleth.png "Yelp rating choropleth")
 
 
 
