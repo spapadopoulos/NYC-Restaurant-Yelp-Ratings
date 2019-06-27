@@ -3,7 +3,7 @@
 Work in progress
 
 
-![foo](output/choropleth.png)
+![](output/choropleth.png "foo")
 
 
 
